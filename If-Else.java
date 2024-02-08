@@ -22,10 +22,19 @@ public class Solution {
             System.out.print("Weird");
         }
         
-        else if (N % 2 == 0) {
+        else if ( (N % 2 == 0) && (N > 2) && (N <= 5) )  {
             System.out.print("Not Weird");
         }
+        
+        else if ( (N % 2 == 0) && (N <= 20) ) {
+            System.out.print("Weird");
+        }
+         
+        else  if (N > 20) {
+            System.out.print("Not Weird");
+        } 
         
         
     }
 }
+
